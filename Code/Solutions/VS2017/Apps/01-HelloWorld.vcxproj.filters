@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{79341616-d9ce-4728-92c0-0bff725f6235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Skins">
+      <UniqueIdentifier>{c70ad51b-48bb-4b7a-ad52-7b6f207163db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{73079cf3-3c68-4f5a-8a47-619f12f17c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Source">
+      <UniqueIdentifier>{74420bdb-1e0e-4f3a-8c53-b21b394b8d41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\External\GacLib\Import\GacUI.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\GacUIWindows.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\Vlpp.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\VlppOS.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\VlppParser.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\VlppReflection.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\VlppRegex.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\VlppWorkflowRuntime.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\External\GacLib\Import\Skins\DarkSkin\DarkSkin.cpp">
+      <Filter>Lib\Skins</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Samples\HelloWorld\UI\Source\HelloWorldPartialClasses.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Samples\HelloWorld\UI\Source\HelloWorldReflection.cpp">
+      <Filter>UI\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Samples\HelloWorld\Main.cpp" />
+    <ClCompile Include="..\..\..\Samples\HelloWorld\WinMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\External\GacLib\Import\GacUI.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\GacUIWindows.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\Vlpp.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\VlppOS.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\VlppParser.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\VlppReflection.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\VlppRegex.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\VlppWorkflowRuntime.h">
+      <Filter>Lib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\External\GacLib\Import\Skins\DarkSkin\DarkSkin.h">
+      <Filter>Lib\Skins</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Samples\HelloWorld\UI\Source\HelloWorld.h">
+      <Filter>UI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Samples\HelloWorld\UI\Source\HelloWorldPartialClasses.h">
+      <Filter>UI\Source</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Samples\HelloWorld\UI\Source\HelloWorldReflection.h">
+      <Filter>UI\Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\Samples\HelloWorld\UI\Resource.xml">
+      <Filter>UI</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>

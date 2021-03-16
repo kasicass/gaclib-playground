@@ -20,3 +20,7 @@ Bin32
 Bin64
 BinLib
 BinTemp
+
+# ignore UI/Source directory
+Source
+*.bin
